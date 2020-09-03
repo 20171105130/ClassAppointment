@@ -1,0 +1,51 @@
+body{
+    background-image:url(super.jpg)"
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background:#fff
+}
+tr:nth-of-type(odd) {
+    background: #eee;
+}
+th {
+    background:hotpink;
+    color: white;
+    font-weight: bold;
+}
+td,th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.text-center{
+    margin-top:60px; ;
+}
+.navbar-default .navbar-collapse{
+    background-color:hotpink;
+}
+.btn-delete{
+    margin-right: 0;
+    border-radius: 5px;
+    background-color: hotpink;
+    font-weight: bolder;
+}
+.btn-add{
+    border-radius: 5px;
+    background-color: hotpink;
+    font-weight: bolder;
+}
+.btn-search{
+    background-color: hotpink ;
+}
+.form-search,.form-delete,form-add{
+    margin-right:0px ;
+}
+
+.btn-delete:hover,.btn-add:hover,.btn-search:hover{
+    background-color: blanchedalmond;
+}
+.navbar-form .book{
+    width:70px;
+}

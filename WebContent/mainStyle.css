@@ -1,0 +1,71 @@
+body{
+    background-color: lightpink;
+    opacity: 0.9;
+}
+.container {
+    margin-top: 50px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Lemon-Regular;
+    color: deeppink;
+    text-shadow: 5px 5px 5px hotpink;
+}
+.signIn {
+    width: 25%;
+    margin: 80px auto 0;
+    background-color:pink;
+    opacity: 0.9;
+    padding: 40px;
+    border: 2px ridge rgba(238, 238, 238, 0.13);
+    border-radius: 5px;
+    box-shadow: 0 -5px 10px 1px rgba(16, 16, 16, 0.57);
+    border-bottom: none;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px 10px 10px 45px;
+    background: deeppink;
+    opacity: 0.6;
+    border: 1px solid #7B7474;
+    border-radius: 5px;
+    font-family:Oswald-Light;
+    font-size: 18px;
+    color: #FFF;
+    outline: none;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.pass{
+    width: 100%;
+    padding: 10px 10px 10px 45px;
+    background-color: deeppink;
+    opacity: 0.6;
+    border: 1px solid #7B7474;
+    border-radius: 5px;
+    font-family:Oswald-Light;
+    font-size: 18px;
+    color: #FFF;
+    outline: none;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #7B7474;
+    font-family: Oswald-Regular;
+    font-size: 17px;
+    color: #FFFFFF;
+    background: deeppink;
+    opacity: 0.6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: orange;
+    opacity: 0.6;
+}
